@@ -7,6 +7,7 @@
 
     <title>Chittaranjan</title>
 
+    <link rel="stylesheet" href="timeline.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
@@ -28,33 +29,34 @@
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#projects">Projects</a>
             <a class="nav-item nav-link" href="#work">Work</a>
-            <a class="nav-item nav-link" href="#not-work">Not Work</a>
+            <a class="nav-item nav-link" href="#coursework">Academic</a>
           </div>
         </div>
     </nav>
     <section id="home" style="height: 100vh; width: 100vw;">
         <div class="container">
             <h1 class="mx-auto" style="width: 200px;">
-                About Me
+                Chittaranjan
             </h1>
-            <br/>
             <br/>
             <div class="row">
               <div class="col-sm"></div>
-              <div class="col-sm">
+              <div class="col-sm-3">
                 <img src="./assets/Chittaranjan.jpeg" 
                 alt="My picture should load here" 
                 class="img-thumbnail">
               </div>
-              <div class="col-sm-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate 
-                velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia deserunt mollit anim id est laborum
+              <div class="col-sm-7">
+                My full name is Chittaranjan Velambur Rajan but I also respond to any prefix of that (most common ones being "C" and "Chitt")
+                <br><br>
+                I'm a grad student at the University of Michigan Ann Arbor, studying Applied Statistics. 
+                I completed my undergraduate degree in Computer Science from PES University in Bangalore, India, 
+                which is also where I grew up.
+                <br><br>
+                On good days, I look like the picture on the left.
+                <br><br>
+                When I'm not studying or working, you will most probably find me playing the piano, 
+                <a href="https://drive.google.com/file/d/1P_ayRS3UCVkdARozEsDVR2tkS7Odt8dt/view">volunteering as a teacher</a>, or <a href="https://www.youtube.com/watch?v=w0YjyP51nsw&list=PLmx4utxjUQD5Mp6alcCblaGs99uL6u-QZ">talking about stuff</a> I know to whoever will listen.
               </div>
               <div class="col-sm"></div>
             </div>
@@ -73,20 +75,20 @@
     </section>
     <section id="projects" style="height: 100vh; width: 100vw">
         <div class="container">
-            <h1 class="mx-auto" style="width: 200px;">
-                Projects
+            <h1 class="mx-auto" style="width: 400px;">
+                Featured Projects
             </h1>
             <br/>
             <br/>
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <img style="height: 100px; width: 100px" src="./assets/placeholder.jpeg"/>
+                    <img style="height: 100px; width: 100px" src="./assets/cricket.png"/>
                 </div>
                 <div class="col-sm-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <b>Quantifying a cricketer's versatility</b>: Use various data sources from the internet 
+                    to evaluate how well cricketers perform across various formats of the game, and
+                    develop a new rating system based on the new versatility metric. <a href="https://ieeexplore.ieee.org/abstract/document/8554729">Publication</a>, <a href="https://github.com/chittaranjan19/cricketer-versatility">Source</a>
                 </div>
                 <div class="col-sm-2"></div>
             </div> 
@@ -94,12 +96,12 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <img style="height: 100px; width: 100px" src="./assets/placeholder.jpeg"/>
+                    <img style="height: 100px; width: 100px" src="./assets/press.png"/>
                 </div>
                 <div class="col-sm-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <b>Press Release Analytics</b>: Use historical press releases made by Globenewswire to build a neural network
+                    capable of predicting the best time to make a press release so that viewership for relevant demographies/geographies
+                    is maximized. <a href="https://github.com/chittaranjan19/press-release-analytics">Source</a>
                 </div>
                 <div class="col-sm-2"></div>
             </div> 
@@ -107,12 +109,12 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <img style="height: 100px; width: 100px" src="./assets/placeholder.jpeg"/>
+                    <img style="height: 100px; width: 100px" src="./assets/music.png"/>
                 </div>
                 <div class="col-sm-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <b>MusicAI</b>: An ML based piano assistant that could complement a user's melody by playing complementing bass harmonies in realtime.
+                    Techniques involved using variations of Logistic Regression, KNN, LSTMs, Hidden Markov Models, etc to predict a chord to be played based on the melody input.
+                    <a href="https://docs.google.com/document/d/1a9GDYmx6WB7r_v15QHgUk8h3yUwzfZE8ThRWx4vvBrU/edit?usp=sharing">Thesis</a>, <a href="https://github.com/NikhilPr95/MusicAI">Source</a>
                 </div>
                 <div class="col-sm-2"></div>
             </div> 
@@ -120,25 +122,20 @@
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <img style="height: 100px; width: 100px" src="./assets/placeholder.jpeg"/>
+                    <img style="height: 100px; width: 100px" src="./assets/coding.png"/>
                 </div>
                 <div class="col-sm-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <b>Trends in Competitive Coding</b>: Exploratory data analysis on a custom scraped dataset to identify if problem solving and competitive coding prowess was an acquired or developed trait. Principal Component Analysis and K-Means clustering techniques were used
+                    to compare time-dependent and time-independent attributes of users as a means of deciding whether the trait was acquired or developed.
+                    <a href="https://github.com/chittaranjan19/competitive-coding-analysis">Source</a>
                 </div>
                 <div class="col-sm-2"></div>
             </div> 
             <br/>
             <div class="row">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-2">
-                    <img style="height: 100px; width: 100px" src="./assets/placeholder.jpeg"/>
-                </div>
-                <div class="col-sm-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                <div class="col-sm-8">
+                    For more of my work, visit my <a href="https://github.com/chittaranjan19">Github</a>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -149,12 +146,82 @@
         <h1 class="mx-auto" style="width: 200px;">
             Work
         </h1>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                            <div id="content">
+                                <ul class="timeline">
+                                    <li class="event" data-date="June '22 - July '22">
+                                        <h3>Summer Internship???</h3>
+                                        <p>I'm looking to transition out of core software and looking for summer internships in Data Science/Analytics domains, 
+                                            contact me if you know of any opportunities I'd be a good fit for.</p>
+                                    </li>
+                                    <li class="event" data-date="Nov '20 - July '21">
+                                        <h3>Software Developer Specialist - DLT, Nasdaq</h3>
+                                        <p>Integrate blockchain based solution to enable realtime settlement of trades.</p>
+                                    </li>
+                                    <li class="event" data-date="Nov '19 - Oct '20">
+                                        <h3>Senior Software Developer - New Markets, Nasdaq</h3>
+                                        <p>Plug generic trading solutions to non-financial domains (healthcare, sports, etc) to set up a marketplace.</p>
+                                    </li>
+                                    <li class="event" data-date="July '18 - Oct '19">
+                                        <h3>Senior Software Developer - Operations UI, Nasdaq</h3>
+                                        <p>Custom tool to help operations teams monitor production systems.</p>
+                                    </li>
+                                    <li class="event" data-date="Jan '18 - July '18">
+                                        <h3>Senior Operations Analyst - SMARTS, Nasdaq</h3>
+                                        <p>Ensuring BAU and health of production systems,
+                                            and automation of day-to-day activities to aid with monitoring and deployment.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="not-work" style="height: 100vh; width: 100vw">
-        <h1 class="mx-auto" style="width: 200px;">
-            Not Work
-        </h1>
+    <section id="coursework" style="height: 100vh; width: 100vw">
+        <div class="container">
+            <h1 class="mx-auto" style="width: 200px;">
+                Coursework
+            </h1>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
+                    <h3>Graduate (Statistics)</h3>
+                    <ul>
+                        <li>Stat 500: Statistical Learning: Regression</li>
+                        <li>Stat 510: Probability Distribution Theory</li>
+                        <li>Stat 507: Data Science with Python, <a href="https://github.com/chittaranjan19/stats-507-solutions">code</a></li>
+                        <li>Stat 503: Statistical Learning: II (Current)</li>
+                        <li>Stat 511: Intro to Stat Theory (Current)</li>
+                        <li>EECS 545: Machine Learning (Current)</li>
+                    </ul>
+                    <h3>Undergraduate (Computer Science)</h3>
+                    <ul>
+                        <li>Intro to Python</li>
+                        <li>OOPS with Java</li>
+                        <li>Algorithms and Data Structures</li>
+                        <li>Operating Systems</li>
+                        <li>Object Oriented Modelling and Design</li>
+                        <li>Software Engineering</li>
+                        <li>Cloud Computing</li>
+                        <li>Machine Learning</li>
+                        <li>Data Analysis</li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-2"></div>               
+            </div> 
+            <br/>
+            <br/>
+        </div>
+        
     </section>
 
 
